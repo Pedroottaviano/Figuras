@@ -1,6 +1,6 @@
 package Figuras;
 
-public class Figura {
+public abstract class Figura {
 
     private String color;
     private Integer numLados;
@@ -33,19 +33,13 @@ public class Figura {
         return numLados;
     } 
 
+    public abstract Float calcularArea();
+
     @Override
     public String toString() {
         return "{" +
             " color='" + getColor() + "'" +
             ", numLados='" + getNumLados() + "'" +
             "}";
-    }
-
-    public String esTriangulo() {
-        if(this.numLados == 3) {
-            return "La figura es un triangulo";
-        } else {
-            return "La figura NO es un triangulo";
-        }
     }
 }

@@ -29,7 +29,7 @@ public class Triangulo extends Figura {
         this.altura = altura;
     }
 
-    private Float calcularArea() {
+    public Float calcularArea() {
         return (base*altura)/2;
     }
 
