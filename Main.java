@@ -13,6 +13,9 @@ public class Main {
 
         Figura cuadrado = new Cuadrado("verde", 4.2f);
         System.out.println(cuadrado.toString());
+        
+        Figura SegundoCuadrado = new Cuadrado("rojo", 4.2f);
+        System.out.println(cuadrado.toString());
 
         System.out.println("-------------------------------");
 
