@@ -21,5 +21,8 @@ public class Main {
 
         Figura circunferencia = new Circunferencia("Amarillo", 3.5f);
         System.out.println(circunferencia.toString());
+
+        Figura segundaCircunferencia = new Circunferencia("Blanco", 5f);
+        System.out.println(circunferencia.toString());
     }
 }
