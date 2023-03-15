@@ -7,6 +7,10 @@ public class Main {
         System.out.println(triangulo.toString());
         System.out.println("-------------------------------");
 
+        Figura segundoTriangulo = new Triangulo("violeta", 2.5f, 6f);
+        System.out.println(triangulo.toString());
+        System.out.println("-------------------------------");
+
         Figura cuadrado = new Cuadrado("verde", 4.2f);
         System.out.println(cuadrado.toString());
 
