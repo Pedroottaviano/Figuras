@@ -35,11 +35,4 @@ public abstract class Figura {
 
     public abstract Float calcularArea();
 
-    @Override
-    public String toString() {
-        return "{" +
-            " color='" + getColor() + "'" +
-            ", numLados='" + getNumLados() + "'" +
-            "}";
-    }
 }

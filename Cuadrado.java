@@ -24,13 +24,4 @@ public class Cuadrado extends Figura {
         return lado*lado;
     }
 
-    @Override
-    public String toString() {
-        return "{" +
-            " color='" + getColor() + "'" +
-            ", lado='" + getLado() + "'" +
-            ", area='" + calcularArea() + "'" +
-            ", figura='" + getClass().getName() + "'" +
-            "}";
-    }
 }

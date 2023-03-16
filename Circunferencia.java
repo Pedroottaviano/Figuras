@@ -23,14 +23,4 @@ public class Circunferencia extends Figura {
     public Float calcularArea() {
         return (radio * radio * 3.1415f);
     }
-
-    @Override
-    public String toString() {
-        return "{" +
-            " color='" + getColor() + "'" +
-            ", radio='" + getRadio() + "'" +
-            ", area='" + calcularArea() + "'" +
-            ", figura='" + getClass().getName() + "'" +
-            "}";
-    }
 }
