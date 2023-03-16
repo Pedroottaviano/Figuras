@@ -32,15 +32,4 @@ public class Triangulo extends Figura {
     public Float calcularArea() {
         return (base*altura)/2;
     }
-
-    @Override
-    public String toString() {
-        return "{" +
-            " color='" + getColor() + "'" +
-            ", base='" + getBase() + "'" +
-            ", altura='" + getAltura() + "'" +
-            ", area='" + calcularArea() + "'" +
-            ", figura='" + getClass().getName() + "'" +
-            "}";
-    }
 }
