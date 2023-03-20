@@ -1,6 +1,6 @@
 package Figuras;
 
-public abstract class Figura {
+public abstract class Figura implements InterfaceFigura {
 
     private String color;
     private Integer numLados;
@@ -32,7 +32,5 @@ public abstract class Figura {
     public Integer getNumLados() {
         return numLados;
     } 
-
-    public abstract Float calcularArea();
 
 }

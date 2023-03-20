@@ -20,7 +20,8 @@ public class Circunferencia extends Figura {
         this.radio = radio;
     }
 
-    public Float calcularArea() {
-        return (radio * radio * 3.1415f);
+    @Override
+    public Float cacluloDeArea() {
+        return (radio * radio * 3.1415f); 
     }
 }

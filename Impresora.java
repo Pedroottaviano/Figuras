@@ -9,7 +9,7 @@ public class Impresora <T extends Figura> {
         System.out.println("{" +
         " La figura es un '" + figuraAImprimir.getClass().getName().substring(8) + "'" +
         ", de color '" + figuraAImprimir.getColor() + "'" +
-        " y area '" +  figuraAImprimir.calcularArea() + "'" +
+        " y area '" +  figuraAImprimir.cacluloDeArea() + "'" +
         " }");
     }
     

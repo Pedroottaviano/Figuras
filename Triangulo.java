@@ -1,6 +1,7 @@
 package Figuras;
 
 public class Triangulo extends Figura {
+    
     private Float base;
     private Float altura;
 
@@ -32,4 +33,10 @@ public class Triangulo extends Figura {
     public Float calcularArea() {
         return (base*altura)/2;
     }
+
+    @Override
+    public Float cacluloDeArea() {
+        return (base*altura)/2;
+    }
+
 }

@@ -1,6 +1,6 @@
 package Figuras;
 
-public class Cuadrado extends Figura {
+public class Cuadrado extends Figura implements InterfaceFigura {
     
     private Float lado;
 
@@ -21,6 +21,11 @@ public class Cuadrado extends Figura {
     }
 
     public Float calcularArea(){
+        return lado*lado;
+    }
+
+    @Override
+    public Float cacluloDeArea() {
         return lado*lado;
     }
 
