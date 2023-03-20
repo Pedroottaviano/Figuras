@@ -2,18 +2,15 @@ package Figuras;
 
 public class Impresora <T extends Figura> {
     
-    private T figuraAImprimir;
-
-    public Impresora(T figuraAImprimir){
-        this.figuraAImprimir = figuraAImprimir;
+    public Impresora(){
     }
 
-    public void imprimir(){
+    public void imprimir(T figuraAImprimir){
         System.out.println("{" +
-        " color='" + figuraAImprimir.getColor() + "'" +
-        ", area='" + figuraAImprimir.calcularArea() + "'" +
-        ", figura='" + figuraAImprimir.getClass().getName() + "'" +
-        "}");
+        " La figura es un '" + figuraAImprimir.getClass().getName().substring(8) + "'" +
+        ", de color '" + figuraAImprimir.getColor() + "'" +
+        " y area '" +  figuraAImprimir.calcularArea() + "'" +
+        " }");
     }
     
 }
